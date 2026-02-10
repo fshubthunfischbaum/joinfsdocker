@@ -1,6 +1,6 @@
-FROM mcr.microsoft.com/dotnet/runtime:6.0
-COPY JoinFS-CONSOLE /srv/JoinFS-CONSOLE
-COPY start-hub.sh /srv/JoinFS-CONSOLE/start-hub.sh
-RUN chmod 755 /srv/JoinFS-CONSOLE/start-hub.sh
+FROM mcr.microsoft.com/dotnet/runtime:8.0
+COPY JoinFS-Console /srv/JoinFS-CONSOLE
+COPY run.sh /srv/JoinFS-CONSOLE/run.sh
+RUN chmod 755 /srv/JoinFS-CONSOLE/run.sh
 EXPOSE 6112
 WORKDIR /srv/JoinFS-CONSOLE
