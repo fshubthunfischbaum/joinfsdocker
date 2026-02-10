@@ -1,2 +1,2 @@
 #!/bin/bash
-dotnet JoinFS-CONSOLE.dll --hubname $HUB_NAME --hubabout $HUB_ABOUT --hub --nosim --nogui
+dotnet JoinFS-CONSOLE.dll --hubname $SERVER_NAME --hubabout $SERVER_DESC --pasword $SERVER_PASSWORD --hub --nosim --nogui
